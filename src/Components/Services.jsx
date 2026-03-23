@@ -1,11 +1,11 @@
-import React from 'react';
+import {Globe,ChartColumnIncreasing, Component, FastForward } from 'lucide-react'
 import { Reveal } from './Reveal';
 
 const services = [
-  { title: 'UI & UX Design', desc: 'User-centric interfaces using Figma & Prototyping.', icon: '🎨' },
-  { title: 'Fullstack Dev', desc: 'React Vite, Node.js, & Scalable Architecture.', icon: '⚡' },
-  { title: 'SEO & Marketing', desc: 'Technical SEO to dominate search rankings.', icon: '📈' },
-  { title: 'Creative Motion', desc: 'Framer Motion for high-end feel interactions.', icon: '✨' },
+  { title: 'UI & UX Design', desc: 'User-centric interfaces using Figma & Prototyping.', icon: <Component /> },
+  { title: 'Fullstack Web Dev', desc: 'React Vite, Node.js, & Scalable Architecture.', icon: <Globe />},
+  { title: 'SEO & Marketing', desc: 'Technical SEO to dominate search rankings.', icon: <ChartColumnIncreasing /> },
+  { title: 'Creative Motion', desc: 'Framer Motion for high-end feel interactions.', icon: <FastForward /> },
 ];
 
 export default function Services(){
