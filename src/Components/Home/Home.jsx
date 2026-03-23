@@ -1,5 +1,6 @@
 import Navbar from "../Navbar"
 import Hero from "../Hero"
+import About from "../About"
 import {Projects} from "../Projects"
 import Services from "../Services"
 import Cta from "../CTA"
@@ -13,6 +14,8 @@ export default function Home(){
       <Navbar />
 
       <Hero />
+
+      <About/>
 
       <SocialProof />
 

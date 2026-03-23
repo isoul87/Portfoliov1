@@ -21,7 +21,7 @@ export const Projects = () => {
   const filteredProjects = projectData.filter(item => item.category === activeTab);
 
   return (
-    <section className="py-20 mb-40">
+    <section className="py-20 mb-40" id='projects'>
       <Reveal>
         <h2 className="text-4xl font-bold text-center mb-10">Featured Projects</h2>
       </Reveal>
@@ -54,7 +54,7 @@ export const Projects = () => {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.9 }}
               transition={{ duration: 0.3 }}
-              className="group bg-white rounded-[32px] overflow-hidden border border-neutral-200 hover:shadow-2xl transition-all"
+              className="group bg-white rounded-2xl overflow-hidden border border-neutral-200 hover:shadow-2xl transition-all"
             >
               <div className="aspect-video bg-neutral-100 overflow-hidden">
                 <img 

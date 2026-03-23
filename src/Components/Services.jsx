@@ -20,7 +20,7 @@ export default function Services(){
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
       {services.map((item, i) => (
         <Reveal key={item.title} delay={i * 0.1}>
-          <div className="group bg-white border border-neutral-200 p-10 rounded-[32px] h-full hover:border-black transition-colors duration-500">
+          <div className="group bg-white border border-neutral-200 p-10 rounded-2xl h-full hover:border-black transition-colors duration-500">
             <div className="text-4xl mb-6">{item.icon}</div>
             <h3 className="text-xl font-bold mb-4">{item.title}</h3>
             <p className="text-neutral-500 leading-relaxed text-sm">{item.desc}</p>

@@ -5,15 +5,21 @@ export default function Navbar() {
     <nav className="flex justify-between items-center mb-32 sticky top-0 z-50 py-6 bg-[#f8f8f8]/80 backdrop-blur-md">
       <Reveal y={10}>
         <div className="flex items-center gap-4 text-[11px] md:text-xs font-medium uppercase tracking-wider">
+          <a href="mailto:naufal141508@gmail.com">
           <span className="opacity-50 lowercase transition-opacity hover:opacity-100 cursor-pointer">
-            kawsarvy.design@gmail.com
+            NUXZTECH
           </span>
+          </a>
+          <a href='/CV Muhamad Naufal Kuswandana.pdf' download='CV Muhamad Naufal Kuswandana.pdf'>
           <button className="px-3 py-1 bg-white border border-neutral-200 rounded-full hover:border-black transition-all active:scale-95">
             Copy
           </button>
+          </a>
+          <a href='/CV Muhamad Naufal Kuswandana.pdf' download='CV Muhamad Naufal Kuswandana.pdf'>
           <button className="px-3 py-1 bg-white border border-neutral-200 rounded-full hover:border-black transition-all active:scale-95">
             CV
           </button>
+          </a>
         </div>
       </Reveal>
       

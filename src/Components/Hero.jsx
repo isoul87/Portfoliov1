@@ -4,7 +4,7 @@ import { Reveal } from './Reveal';
 
 export default function Hero() {
   return (
-  <section className="flex flex-col items-center text-center mb-40">
+  <section className="flex flex-col items-center text-center mb-10">
     <Reveal delay={0.2}>
       <div className="relative mb-10 group cursor-pointer">
         <img 
@@ -25,13 +25,16 @@ export default function Hero() {
     </Reveal>
 
     <Reveal delay={0.4}>
+      <a href="#projects">
+
       <motion.button 
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         className="bg-[#1a1a1a] text-white px-10 py-4 rounded-full text-sm font-medium flex items-center gap-3 shadow-2xl shadow-black/20"
-      >
+        >
         Latest Shots <span className="text-lg"><MoveUpRight /></span>
       </motion.button>
+        </a>
     </Reveal>
   </section>
   )

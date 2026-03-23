@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'motion/react'; // Update: Sekarang import dari 'motion/react'
 
 export const Reveal = ({ children, delay = 0, y = 20, x = 0 }) => {
