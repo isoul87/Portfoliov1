@@ -10,7 +10,7 @@ const services = [
 
 export default function Services(){
   return (
-  <section className="mb-40">
+  <section className="">
     <Reveal>
       <h2 className="text-3xl md:text-5xl text-center mb-20 max-w-3xl mx-auto leading-tight font-medium">
         Collaborate with brands and agencies to create impactful results.

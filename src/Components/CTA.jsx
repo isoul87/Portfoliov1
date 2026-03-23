@@ -3,7 +3,7 @@ import { Reveal } from './Reveal';
 
 export default function Cta()  {
   return (
-  <section className="text-center pb-20">
+  <section className="text-center">
     <Reveal>
       <div className="w-20 h-20 bg-neutral-200 rounded-full mx-auto flex items-center justify-center mb-8 shadow-inner">
         <HeartHandshake size={48} />
@@ -15,9 +15,11 @@ export default function Cta()  {
         <button className="bg-black text-white px-8 py-4 rounded-full font-medium hover:bg-neutral-800 transition-all">
           Email Me
         </button>
+        <a href="https://api.whatsapp.com/send/?phone=6285807107865&text=Aku+ingin+membeli+apk+prem+&type=phone_number&app_absent=0" target='_blank'>
         <button className="bg-white border border-neutral-200 px-8 py-4 rounded-full font-medium hover:bg-neutral-50 transition-all">
           WhatsApp
         </button>
+        </a>
       </div>
     </Reveal>
     

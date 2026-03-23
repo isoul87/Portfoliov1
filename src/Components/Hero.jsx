@@ -4,7 +4,7 @@ import { Reveal } from './Reveal';
 
 export default function Hero() {
   return (
-  <section className="flex flex-col items-center text-center mb-10">
+  <section className="flex flex-col items-center text-center">
     <Reveal delay={0.2}>
       <div className="relative mb-10 group cursor-pointer">
         <img 

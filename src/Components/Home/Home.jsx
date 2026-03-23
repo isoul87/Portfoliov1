@@ -4,7 +4,7 @@ import About from "../About"
 import {Projects} from "../Projects"
 import Services from "../Services"
 import Cta from "../CTA"
-import {SocialProof}  from "../SocialProof"
+// import {SocialProof}  from "../SocialProof"
     
 export default function Home(){
   return (
@@ -17,7 +17,7 @@ export default function Home(){
 
       <About/>
 
-      <SocialProof />
+      {/* <SocialProof /> */}
 
       <Projects/>
 

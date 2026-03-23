@@ -12,7 +12,7 @@ export const About = () => {
   const hiddenText = " I am mastering SEO strategies and crafting seamless UI/UX experiences. My goal? Bridging the gap between creative design and high-performance code to create digital products that actually work.";
 
   return (
-    <section className="py-24 px-6 flex items-center justify-center bg-[#f8f8f8]">
+    <section className="flex items-center justify-center bg-[#f8f8f8]">
       <div className="max-w-3xl text-center">
         
         <Reveal y={-10}>

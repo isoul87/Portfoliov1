@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@layer {
+  html {
+    @apply scroll-smooth
+  }
+  section {
+    @apply pb-32
+  }
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Reveal } from './Reveal';
 
-const brands = ['National Bank', 'Adobe', 'CocaCola', 'Subway', 'Codecademy'];
+const brands = ['Pengadilan Negeri Waikabubak', 'Adobe', 'Wahidiyah High School', '', 'Codecademy'];
 
 export const SocialProof = () => (
   <Reveal delay={0.5}>
