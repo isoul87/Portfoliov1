@@ -1,4 +1,4 @@
-import React from 'react';
+import {MoveUpRight} from 'lucide-react'
 import { motion } from 'motion/react';
 import { Reveal } from './Reveal';
 
@@ -30,7 +30,7 @@ export default function Hero() {
         whileTap={{ scale: 0.95 }}
         className="bg-[#1a1a1a] text-white px-10 py-4 rounded-full text-sm font-medium flex items-center gap-3 shadow-2xl shadow-black/20"
       >
-        Latest Shots <span className="text-lg">↗</span>
+        Latest Shots <span className="text-lg"><MoveUpRight /></span>
       </motion.button>
     </Reveal>
   </section>
