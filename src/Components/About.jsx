@@ -6,7 +6,7 @@ export const About = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   // Bagian teks yang selalu muncul (intro)
-  const introText = "Currently a 12th-grade student at SMA Wahidiyah Kepanjen, I don’t just study, I build. While others are scrolling, I’m diving deep into Fullstack Development.";
+  const introText = "A 12th-grade student at SMA Wahidiyah Kepanjen with a deep passion for digital architecture. I specialize in Fullstack Development, focusing on creating robust and scalable web applications. My journey is driven by a commitment to continuous learning and a mission to transform complex ideas into functional, high-performance digital solutions.";
   
   // Bagian teks yang disembunyikan
   const hiddenText = " I am mastering SEO strategies and crafting seamless UI/UX experiences. My goal? Bridging the gap between creative design and high-performance code to create digital products that actually work.";
