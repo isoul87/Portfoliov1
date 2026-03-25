@@ -9,7 +9,7 @@ export const About = () => {
   const introText = "A 12th-grade student at SMA Wahidiyah Kepanjen with a deep passion for digital architecture. I specialize in Fullstack Development, ";
   
   // Bagian teks yang disembunyikan
-  const hiddenText = " focusing on creating robust and scalable web applications. My journey is driven by a commitment to continuous learning and a mission to transform complex ideas into functional, high-performance digital solutions.";
+  const hiddenText = " f ocusing on creating robust and scalable web applications. My journey is driven by a commitment to continuous learning and a mission to transform complex ideas into functional, high-performance digital solutions.";
 
   return (
     <section className="flex items-center justify-center bg-[#f8f8f8]">
