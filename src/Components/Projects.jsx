@@ -12,6 +12,15 @@ const projectData = [
   { id: 6, category: 'design', title: 'Design Creative', tech: 'Canva', image: '/creative.png', link: 'https://api.whatsapp.com/send/?phone=6285807107865&text=Aku+ingin+membeli+apk+prem+&type=phone_number&app_absent=0' },
   { id: 7, category: 'design', title: 'Advertising', tech: 'Photoshop', image: '/advertising.png', link: 'https://api.whatsapp.com/send/?phone=6285807107865&text=Aku+ingin+membeli+apk+prem+&type=phone_number&app_absent=0' },
   { id: 8, category: 'video', title: 'Motion Graphics', tech: 'After Effects', image: '/motion.png', link: 'https://www.instagram.com/reel/DRyykWFiX7c/'},
+  { id: 9, category: 'certificate', title: 'Belajar Dasar Pemrograman Web', tech: 'Html, CSS', image: '/webintro.png', link: ''},
+  { id: 10, category: 'certificate', title: 'Belajar Dasar Pemrograman Javascript', tech: 'Javascript', image: '/dasarJs.png', link: ''},
+  { id: 11, category: 'certificate', title: 'Belajar Membuat Front-End Web untuk Pemula', tech: 'Html, CSS, Javascript', image: '/frontend.png', link: ''},
+  { id: 12, category: 'certificate', title: 'Prompt Engineering untuk Software Developer', tech: 'Artificial Inteligence', image: '/prompt.png', link: ''},
+  { id: 13, category: 'certificate', title: 'Belajar Back-End Pemula dengan JavaScript', tech: 'Javascript, Node Js, Hapi Js', image: '/backend.png', link: ''},
+  { id: 14, category: 'certificate', title: 'National AI Talent Development', tech: 'Workshop', image: '/alibaba.png', link: ''},
+  { id: 15, category: 'certificate', title: 'Kompetisi Sains Se - Indonesia ( KSSI ) 2024', tech: 'Olimpiade', image: '/infor.png', link: '/infor.png'},
+  { id: 16, category: 'certificate', title: 'Lomba Traspac IT Competition 2026', tech: 'Web / Mobile Apps', image: '/traspac.png', link: ''},
+  { id: 17, category: 'certificate', title: 'Smawa Journalist Team II', tech: 'Organisasi', image: '/sjute2.png', link: ''},
 ];
 
 export const Projects = () => {
@@ -23,12 +32,12 @@ export const Projects = () => {
   return (
     <section className="" id='projects'>
       <Reveal>
-        <h2 className="text-4xl font-bold text-center mb-10">Featured Projects</h2>
+        <h2 className="text-4xl font-bold text-center mb-10">Featured Projects & Journey</h2>
       </Reveal>
 
       {/* TABS NAVIGATION */}
       <div className="flex justify-center gap-4 mb-16">
-        {['coding', 'design', 'video'].map((tab) => (
+        {['coding', 'design', 'video', 'certificate'].map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
