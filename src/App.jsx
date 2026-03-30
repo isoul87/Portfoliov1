@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import Home from "./Components/Home/Home"
 import { AnimatePresence } from 'motion/react';
-import { Loader } from './Components/Loader';
+// import { Loader } from './Components/Loader';
 import { GreetingLoader } from './Components/GreetingLoader';
+import { ScrollProgress } from './Components/Scroll';
 
 
 
@@ -24,7 +25,12 @@ function App() {
       </AnimatePresence>
 
       {/* Konten Utama Tetap Render di Belakang atau Kondisional */}
-      {!isLoading && <Home />}
+      {!isLoading && 
+        <>
+          <ScrollProgress/>
+          <Home />
+        </> 
+      }
 
     </>
     )

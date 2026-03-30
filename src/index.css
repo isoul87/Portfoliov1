@@ -1,9 +1,19 @@
 @import "tailwindcss";
 
 @layer {
-  html {
+
+  /* Sembunyikan untuk Chrome, Safari, dan Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Sembunyikan untuk IE, Edge, dan Firefox */
+html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
     @apply scroll-smooth
   }
+  
   section {
     @apply pb-32
   }
