@@ -41,7 +41,7 @@ export const Projects = () => {
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-6 py-2 rounded-full text-sm font-medium transition-all capitalize ${
+            className={`px-3 py-2 rounded-full text-sm font-medium transition-all capitalize ${
               activeTab === tab 
                 ? 'bg-black text-white shadow-lg' 
                 : 'bg-white text-neutral-500 border border-neutral-200 hover:border-black'
